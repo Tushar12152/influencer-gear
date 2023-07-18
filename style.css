@@ -90,6 +90,24 @@
     
 }
 
+/* sponspor-section */
+
+.sponspor-section{
+ width:80%;
+ border:1px solid gray;
+ margin:100px auto 0px;
+ 
+}
+.sponspor{
+    display:flex;
+    gap:60px;
+    align-items: center;
+    margin:41px 0px;
+}
+/* .sponspor>img{
+    width:100%;
+} */
+
 
 
 
@@ -121,6 +139,16 @@
         font-size: 40px;
     }
 
+    .sponspor-section{
+        width:100%;
+        border:none;
+        margin-left:20px;
+        
+       }
+       .sponspor{
+        flex-wrap:wrap
+       }
+
 
 }
 
@@ -144,6 +172,15 @@
         text-align: center;
         font-size: 40px;
     }
+    .sponspor-section{
+        width:100%;
+        border:none;
+        margin-left:20px;
+        
+       }
+       .sponspor{
+        flex-wrap:wrap
+       }
 
 }
 
